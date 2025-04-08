@@ -13,6 +13,7 @@ import time
 # Constants
 MAX_CELL_SIZE = 30000  # Conservative limit for Excel cell size
 SCRAPE_DIR = r"C:\Scrape\ScrapeLinks\UCSystems"
+OUTPUT_DIR = r"C:\Scrape\ScrapeDescriptions\UCSystems"
 
 def split_html_for_excel(html):
     """Split HTML content into chunks that fit in Excel cells"""
@@ -120,7 +121,7 @@ def main():
     print(f"Using input file: {input_file}")
     
     today = datetime.now().strftime("%m%d%Y")
-    output_path = os.path.join(SCRAPE_DIR, f"ucjobs_html_{today}.xlsx")
+    output_path = os.path.join(OUTPUT_DIR, f"ucjobs_html_{today}.xlsx")
     
     output_df, processed_urls = initialize_output_df(input_file, output_path)
     original_df = pd.read_excel(input_file)
