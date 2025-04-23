@@ -8,6 +8,8 @@ import time
 import os
 from pathlib import Path
 from datetime import datetime  # Import datetime for timestamp generation
+import subprocess
+import sys
 
 # Configure Chrome options
 options = webdriver.ChromeOptions()
@@ -152,6 +154,29 @@ def main():
         driver.quit()
     
     print(f"\nSuccess! Saved {len(df)} job details to {output_path}.")
+
+    current_dir = Path(__file__).parent.resolve()
+    parse_script = current_dir / "ParseClaremontJobDescriptions.py"
+    
+    # Early validation
+    if not parse_script.exists():
+        print(f"\nNOTICE: Parse script not found at {parse_script}")
+        print("Continuing without parsing...")
+        return
+    
+    print(f"\nStarting parse script: {parse_script}")
+    
+    try:
+        subprocess.run(
+            [sys.executable, str(parse_script)],
+            check=True,
+            stdout=sys.stdout,
+            stderr=sys.stderr
+        )
+    except subprocess.CalledProcessError as e:
+        print(f"\nParse script failed with exit code {e.returncode}")
+    except Exception as e:
+        print(f"\nUnexpected error running parse script: {str(e)[:100]}...")
 
 if __name__ == '__main__':
     main()

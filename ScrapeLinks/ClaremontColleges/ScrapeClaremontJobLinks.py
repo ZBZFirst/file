@@ -7,6 +7,10 @@ import pandas as pd
 import time
 import os
 from datetime import datetime
+from pathlib import Path
+import subprocess
+import sys
+
 
 # Configure Chrome options
 options = webdriver.ChromeOptions()
@@ -37,7 +41,7 @@ def safe_find(parent, selector, default=None):
 def setup_driver():
     print("Setting up Chrome driver...")
     driver = webdriver.Chrome(options=options)
-    driver.implicitly_wait(3)
+    driver.implicitly_wait(1)
     print("Driver setup complete.")
     return driver
 
@@ -104,7 +108,7 @@ def wait_for_page_change(driver, target_page):
     """Wait for the target page to become active"""
     print(f"Waiting for page {target_page} to load...")
     try:
-        WebDriverWait(driver, 10).until(
+        WebDriverWait(driver, 3).until(
             EC.presence_of_element_located(
                 (By.CSS_SELECTOR, f'button[aria-label="page {target_page}"].css-1p1egad')
             )
@@ -133,7 +137,7 @@ def scrape_jobs(driver):
                 
                 # Wait for page to fully load
                 print("Waiting for job listings to load...")
-                WebDriverWait(driver, 20).until(
+                WebDriverWait(driver, 3).until(
                     EC.presence_of_element_located((By.CSS_SELECTOR, "li.css-1q2dra3"))
                 )
                 print("Job listings loaded.")
@@ -164,10 +168,6 @@ def scrape_jobs(driver):
                         if not wait_for_page_change(driver, page_num + 1):
                             print(f"Failed to load page {page_num + 1}")
                             break
-                            
-                        # Additional wait for job listings to load
-                        print("Waiting for job listings to load on the new page...")
-                        time.sleep(1.5)
                         
                     except Exception as e:
                         print(f"Error navigating to page {page_num + 1}: {str(e)[:100]}...")
@@ -218,6 +218,18 @@ def generate_filename(base_name):
 
 
 def main():
+    # First check if the second script exists
+    current_dir = Path(__file__).parent.resolve()
+    descriptions_script = current_dir.parent.parent / "ScrapeDescriptions" / "ClaremontColleges" / "ScrapeClaremontJobDescriptions.py"
+    
+    if not descriptions_script.exists():
+        print(f"\nERROR: Second script not found at {descriptions_script}")
+        print("Continuing with scraping only...")
+        run_second_script = False
+    else:
+        print(f"\nSecond script found at {descriptions_script}")
+        run_second_script = True
+
     print("Starting script...")
     driver = setup_driver()
     try:
@@ -247,14 +259,46 @@ def main():
         
         # Save to Excel
         print("Saving data to Excel...")
-        df.to_excel(filename, index=False, engine="openpyxl")  # Save as .xlsx
+        df.to_excel(filename, index=False, engine="openpyxl")
         print(f"\nSuccess! Saved {len(df)} jobs to '{filename}'. Missing data counts:")
         print(df.isnull().sum())
+
+        current_dir = Path(__file__).parent.resolve()
+        descriptions_script = current_dir.parent.parent / "ScrapeDescriptions" / "ClaremontColleges" / "ScrapeClaremontJobDescriptions.py"
         
+        print(f"\nPreparing to run: {descriptions_script}")
+        
+        try:
+            subprocess.run(
+                [sys.executable, str(descriptions_script)],
+                check=True,
+                stdout=sys.stdout,
+                stderr=sys.stderr
+            )
+        except subprocess.CalledProcessError as e:
+            print(f"\nError: Second script failed with exit code {e.returncode}")
+        except FileNotFoundError:
+            print(f"\nError: Could not find {descriptions_script}")
     finally:
-        print("Quitting driver...")
+        print("\nQuitting driver...")
         driver.quit()
         print("Script execution complete.")
 
 if __name__ == '__main__':
     main()
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -8,17 +8,6 @@ from datetime import datetime
 import os
 import pandas as pd
 
-# Function to load the last scraped page from a checkpoint file
-def load_checkpoint():
-    if os.path.exists("checkpoint.txt"):
-        with open("checkpoint.txt", "r") as file:
-            return int(file.read().strip())
-    return 1  # Start from page 1 if no checkpoint exists
-
-# Function to save the current page to a checkpoint file
-def save_checkpoint(page):
-    with open("checkpoint.txt", "w") as file:
-        file.write(str(page))
 
 def handle_not_now_button(driver):
     try:
@@ -156,9 +145,6 @@ try:
     print(f"Total Pages: {total_pages}")
     print(f"Records Per Page: {records_per_page}")
 
-    # 6. Load the last scraped page from the checkpoint
-    current_page = load_checkpoint()
-    print(f"Resuming from page {current_page}...")
 
     # 7. Navigate to the desired page (e.g., page 34)
     if current_page > 1:
@@ -282,8 +268,6 @@ try:
                 print(f"Unexpected error during job listing extraction: {e}")
                 time.sleep(1)  # Wait 5 seconds before retrying
 
-        # Save the current page to the checkpoint file
-        save_checkpoint(current_page)
 
         # Go to the next page if not on the last page
         if current_page < total_pages:
