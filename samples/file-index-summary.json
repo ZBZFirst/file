@@ -1,0 +1,1426 @@
+{
+  "audio_file_count": 2040,
+  "branch": "master",
+  "channels": {
+    "1": 1559,
+    "2": 481
+  },
+  "codecs": {
+    "pcm_f32le": {
+      "bytes": 362648,
+      "count": 4,
+      "duration_seconds": 1.025306
+    },
+    "pcm_s16le": {
+      "bytes": 208947880,
+      "count": 1978,
+      "duration_seconds": 1828.494805
+    },
+    "pcm_s24le": {
+      "bytes": 23804629,
+      "count": 49,
+      "duration_seconds": 125.559932
+    },
+    "pcm_u8": {
+      "bytes": 294574,
+      "count": 7,
+      "duration_seconds": 21.934512
+    },
+    "vorbis": {
+      "bytes": 14082,
+      "count": 2,
+      "duration_seconds": 0.549297
+    }
+  },
+  "directories": {
+    "808": {
+      "audio_count": 6,
+      "audio_duration_seconds": 4.500069,
+      "bytes": 405308,
+      "count": 7
+    },
+    "808bd": {
+      "audio_count": 25,
+      "audio_duration_seconds": 36.250552,
+      "bytes": 3198398,
+      "count": 25
+    },
+    "808cy": {
+      "audio_count": 25,
+      "audio_duration_seconds": 67.500575,
+      "bytes": 5954650,
+      "count": 25
+    },
+    "808hc": {
+      "audio_count": 5,
+      "audio_duration_seconds": 2.500115,
+      "bytes": 220730,
+      "count": 5
+    },
+    "808ht": {
+      "audio_count": 5,
+      "audio_duration_seconds": 5.000115,
+      "bytes": 441230,
+      "count": 5
+    },
+    "808lc": {
+      "audio_count": 5,
+      "audio_duration_seconds": 2.500115,
+      "bytes": 220730,
+      "count": 5
+    },
+    "808lt": {
+      "audio_count": 5,
+      "audio_duration_seconds": 5.000115,
+      "bytes": 441230,
+      "count": 5
+    },
+    "808mc": {
+      "audio_count": 5,
+      "audio_duration_seconds": 2.500115,
+      "bytes": 220730,
+      "count": 5
+    },
+    "808mt": {
+      "audio_count": 5,
+      "audio_duration_seconds": 5.000115,
+      "bytes": 441230,
+      "count": 5
+    },
+    "808oh": {
+      "audio_count": 5,
+      "audio_duration_seconds": 2.500115,
+      "bytes": 220730,
+      "count": 5
+    },
+    "808sd": {
+      "audio_count": 25,
+      "audio_duration_seconds": 10.000483,
+      "bytes": 883142,
+      "count": 25
+    },
+    "909": {
+      "audio_count": 1,
+      "audio_duration_seconds": 0.284671,
+      "bytes": 25152,
+      "count": 1
+    },
+    "Dirt-Samples.quark": {
+      "audio_count": 0,
+      "audio_duration_seconds": 0.0,
+      "bytes": 74,
+      "count": 1
+    },
+    "README.md": {
+      "audio_count": 0,
+      "audio_duration_seconds": 0.0,
+      "bytes": 606,
+      "count": 1
+    },
+    "ab": {
+      "audio_count": 12,
+      "audio_duration_seconds": 32.136258,
+      "bytes": 5670372,
+      "count": 12
+    },
+    "ade": {
+      "audio_count": 10,
+      "audio_duration_seconds": 43.060408,
+      "bytes": 3360306,
+      "count": 10
+    },
+    "ades2": {
+      "audio_count": 9,
+      "audio_duration_seconds": 1.056417,
+      "bytes": 93572,
+      "count": 9
+    },
+    "ades3": {
+      "audio_count": 7,
+      "audio_duration_seconds": 1.243355,
+      "bytes": 109972,
+      "count": 7
+    },
+    "ades4": {
+      "audio_count": 6,
+      "audio_duration_seconds": 0.281542,
+      "bytes": 25096,
+      "count": 6
+    },
+    "alex": {
+      "audio_count": 2,
+      "audio_duration_seconds": 6.4,
+      "bytes": 564568,
+      "count": 2
+    },
+    "alphabet": {
+      "audio_count": 26,
+      "audio_duration_seconds": 11.899297,
+      "bytes": 2100232,
+      "count": 26
+    },
+    "amencutup": {
+      "audio_count": 32,
+      "audio_duration_seconds": 6.442016,
+      "bytes": 569594,
+      "count": 32
+    },
+    "armora": {
+      "audio_count": 7,
+      "audio_duration_seconds": 15.641428,
+      "bytes": 1379882,
+      "count": 7
+    },
+    "arp": {
+      "audio_count": 2,
+      "audio_duration_seconds": 9.683447,
+      "bytes": 854344,
+      "count": 2
+    },
+    "arpy": {
+      "audio_count": 11,
+      "audio_duration_seconds": 1.450613,
+      "bytes": 129022,
+      "count": 11
+    },
+    "auto": {
+      "audio_count": 11,
+      "audio_duration_seconds": 9.541678,
+      "bytes": 843094,
+      "count": 11
+    },
+    "baa": {
+      "audio_count": 7,
+      "audio_duration_seconds": 17.10427,
+      "bytes": 3284328,
+      "count": 7
+    },
+    "baa2": {
+      "audio_count": 7,
+      "audio_duration_seconds": 17.10427,
+      "bytes": 1642318,
+      "count": 7
+    },
+    "bass": {
+      "audio_count": 4,
+      "audio_duration_seconds": 1.149296,
+      "bytes": 101544,
+      "count": 4
+    },
+    "bass0": {
+      "audio_count": 3,
+      "audio_duration_seconds": 1.249977,
+      "bytes": 55256,
+      "count": 3
+    },
+    "bass1": {
+      "audio_count": 30,
+      "audio_duration_seconds": 61.502584,
+      "bytes": 8148504,
+      "count": 31
+    },
+    "bass2": {
+      "audio_count": 5,
+      "audio_duration_seconds": 8.593765,
+      "bytes": 1518152,
+      "count": 6
+    },
+    "bass3": {
+      "audio_count": 11,
+      "audio_duration_seconds": 10.503242,
+      "bytes": 1856125,
+      "count": 12
+    },
+    "bassdm": {
+      "audio_count": 24,
+      "audio_duration_seconds": 6.705375,
+      "bytes": 598742,
+      "count": 25
+    },
+    "bassfoo": {
+      "audio_count": 3,
+      "audio_duration_seconds": 1.249977,
+      "bytes": 55262,
+      "count": 3
+    },
+    "battles": {
+      "audio_count": 2,
+      "audio_duration_seconds": 5.771315,
+      "bytes": 509146,
+      "count": 2
+    },
+    "bd": {
+      "audio_count": 24,
+      "audio_duration_seconds": 6.711325,
+      "bytes": 592996,
+      "count": 24
+    },
+    "bend": {
+      "audio_count": 4,
+      "audio_duration_seconds": 1.210432,
+      "bytes": 107288,
+      "count": 4
+    },
+    "bev": {
+      "audio_count": 2,
+      "audio_duration_seconds": 32.11238,
+      "bytes": 4248768,
+      "count": 2
+    },
+    "bin": {
+      "audio_count": 2,
+      "audio_duration_seconds": 1.636508,
+      "bytes": 216672,
+      "count": 2
+    },
+    "birds": {
+      "audio_count": 10,
+      "audio_duration_seconds": 20.250022,
+      "bytes": 3572544,
+      "count": 10
+    },
+    "birds3": {
+      "audio_count": 19,
+      "audio_duration_seconds": 0.55719,
+      "bytes": 49980,
+      "count": 19
+    },
+    "bleep": {
+      "audio_count": 13,
+      "audio_duration_seconds": 11.628382,
+      "bytes": 2444232,
+      "count": 13
+    },
+    "blip": {
+      "audio_count": 2,
+      "audio_duration_seconds": 0.35991,
+      "bytes": 31832,
+      "count": 2
+    },
+    "blue": {
+      "audio_count": 2,
+      "audio_duration_seconds": 3.291428,
+      "bytes": 145240,
+      "count": 2
+    },
+    "bottle": {
+      "audio_count": 13,
+      "audio_duration_seconds": 2.063901,
+      "bytes": 182608,
+      "count": 13
+    },
+    "breaks125": {
+      "audio_count": 2,
+      "audio_duration_seconds": 3.810431,
+      "bytes": 168128,
+      "count": 2
+    },
+    "breaks152": {
+      "audio_count": 1,
+      "audio_duration_seconds": 4.699841,
+      "bytes": 414570,
+      "count": 1
+    },
+    "breaks157": {
+      "audio_count": 1,
+      "audio_duration_seconds": 1.816213,
+      "bytes": 160234,
+      "count": 1
+    },
+    "breaks165": {
+      "audio_count": 1,
+      "audio_duration_seconds": 1.42288,
+      "bytes": 125542,
+      "count": 1
+    },
+    "breath": {
+      "audio_count": 1,
+      "audio_duration_seconds": 0.498027,
+      "bytes": 87896,
+      "count": 1
+    },
+    "bubble": {
+      "audio_count": 8,
+      "audio_duration_seconds": 0.279457,
+      "bytes": 25000,
+      "count": 8
+    },
+    "can": {
+      "audio_count": 14,
+      "audio_duration_seconds": 2.329978,
+      "bytes": 206120,
+      "count": 14
+    },
+    "casio": {
+      "audio_count": 3,
+      "audio_duration_seconds": 0.665465,
+      "bytes": 58826,
+      "count": 3
+    },
+    "cb": {
+      "audio_count": 1,
+      "audio_duration_seconds": 0.481837,
+      "bytes": 170222,
+      "count": 1
+    },
+    "cc": {
+      "audio_count": 6,
+      "audio_duration_seconds": 4.93678,
+      "bytes": 435688,
+      "count": 6
+    },
+    "chin": {
+      "audio_count": 4,
+      "audio_duration_seconds": 0.024625,
+      "bytes": 2700,
+      "count": 4
+    },
+    "circus": {
+      "audio_count": 3,
+      "audio_duration_seconds": 0.973378,
+      "bytes": 85984,
+      "count": 3
+    },
+    "clak": {
+      "audio_count": 2,
+      "audio_duration_seconds": 0.319727,
+      "bytes": 28464,
+      "count": 2
+    },
+    "click": {
+      "audio_count": 4,
+      "audio_duration_seconds": 2.031111,
+      "bytes": 179320,
+      "count": 4
+    },
+    "clubkick": {
+      "audio_count": 5,
+      "audio_duration_seconds": 1.16771,
+      "bytes": 206204,
+      "count": 5
+    },
+    "co": {
+      "audio_count": 4,
+      "audio_duration_seconds": 1.533593,
+      "bytes": 135442,
+      "count": 4
+    },
+    "coins": {
+      "audio_count": 1,
+      "audio_duration_seconds": 0.164376,
+      "bytes": 14630,
+      "count": 1
+    },
+    "control": {
+      "audio_count": 2,
+      "audio_duration_seconds": 0.679048,
+      "bytes": 119872,
+      "count": 2
+    },
+    "cosmicg": {
+      "audio_count": 15,
+      "audio_duration_seconds": 8.205625,
+      "bytes": 724396,
+      "count": 15
+    },
+    "cp": {
+      "audio_count": 2,
+      "audio_duration_seconds": 0.811972,
+      "bytes": 71704,
+      "count": 2
+    },
+    "cr": {
+      "audio_count": 6,
+      "audio_duration_seconds": 5.039388,
+      "bytes": 444738,
+      "count": 6
+    },
+    "crow": {
+      "audio_count": 4,
+      "audio_duration_seconds": 1.945942,
+      "bytes": 86000,
+      "count": 4
+    },
+    "d": {
+      "audio_count": 4,
+      "audio_duration_seconds": 4.454165,
+      "bytes": 393504,
+      "count": 4
+    },
+    "db": {
+      "audio_count": 13,
+      "audio_duration_seconds": 7.213332,
+      "bytes": 1274096,
+      "count": 13
+    },
+    "diphone": {
+      "audio_count": 38,
+      "audio_duration_seconds": 33.76626,
+      "bytes": 1490764,
+      "count": 38
+    },
+    "diphone2": {
+      "audio_count": 12,
+      "audio_duration_seconds": 9.137961,
+      "bytes": 403512,
+      "count": 12
+    },
+    "dist": {
+      "audio_count": 16,
+      "audio_duration_seconds": 38.401725,
+      "bytes": 6778192,
+      "count": 16
+    },
+    "dork2": {
+      "audio_count": 4,
+      "audio_duration_seconds": 9.531791,
+      "bytes": 840880,
+      "count": 4
+    },
+    "dorkbot": {
+      "audio_count": 2,
+      "audio_duration_seconds": 4.458231,
+      "bytes": 393304,
+      "count": 2
+    },
+    "dr": {
+      "audio_count": 42,
+      "audio_duration_seconds": 16.76143,
+      "bytes": 1480206,
+      "count": 42
+    },
+    "dr2": {
+      "audio_count": 6,
+      "audio_duration_seconds": 4.148866,
+      "bytes": 366194,
+      "count": 6
+    },
+    "dr55": {
+      "audio_count": 4,
+      "audio_duration_seconds": 0.338186,
+      "bytes": 30404,
+      "count": 4
+    },
+    "dr_few": {
+      "audio_count": 8,
+      "audio_duration_seconds": 3.212744,
+      "bytes": 283716,
+      "count": 8
+    },
+    "drum": {
+      "audio_count": 6,
+      "audio_duration_seconds": 1.565646,
+      "bytes": 140446,
+      "count": 6
+    },
+    "drumtraks": {
+      "audio_count": 13,
+      "audio_duration_seconds": 5.228911,
+      "bytes": 463062,
+      "count": 13
+    },
+    "e": {
+      "audio_count": 8,
+      "audio_duration_seconds": 0.103968,
+      "bytes": 11050,
+      "count": 8
+    },
+    "east": {
+      "audio_count": 9,
+      "audio_duration_seconds": 5.548481,
+      "bytes": 489788,
+      "count": 9
+    },
+    "electro1": {
+      "audio_count": 13,
+      "audio_duration_seconds": 6.599909,
+      "bytes": 1165888,
+      "count": 13
+    },
+    "em2": {
+      "audio_count": 6,
+      "audio_duration_seconds": 16.781201,
+      "bytes": 2960642,
+      "count": 6
+    },
+    "erk": {
+      "audio_count": 1,
+      "audio_duration_seconds": 2.117415,
+      "bytes": 186800,
+      "count": 1
+    },
+    "f": {
+      "audio_count": 1,
+      "audio_duration_seconds": 0.572841,
+      "bytes": 50650,
+      "count": 1
+    },
+    "feel": {
+      "audio_count": 7,
+      "audio_duration_seconds": 2.844331,
+      "bytes": 379048,
+      "count": 7
+    },
+    "feelfx": {
+      "audio_count": 8,
+      "audio_duration_seconds": 11.169593,
+      "bytes": 1971622,
+      "count": 8
+    },
+    "fest": {
+      "audio_count": 1,
+      "audio_duration_seconds": 0.751375,
+      "bytes": 24088,
+      "count": 1
+    },
+    "fire": {
+      "audio_count": 1,
+      "audio_duration_seconds": 9.404082,
+      "bytes": 1658924,
+      "count": 1
+    },
+    "flick": {
+      "audio_count": 17,
+      "audio_duration_seconds": 6.368684,
+      "bytes": 562466,
+      "count": 17
+    },
+    "fm": {
+      "audio_count": 17,
+      "audio_duration_seconds": 66.467415,
+      "bytes": 11939820,
+      "count": 17
+    },
+    "foo": {
+      "audio_count": 27,
+      "audio_duration_seconds": 58.85619,
+      "bytes": 2659112,
+      "count": 27
+    },
+    "future": {
+      "audio_count": 17,
+      "audio_duration_seconds": 7.711156,
+      "bytes": 998102,
+      "count": 17
+    },
+    "gab": {
+      "audio_count": 10,
+      "audio_duration_seconds": 6.527188,
+      "bytes": 576678,
+      "count": 10
+    },
+    "gabba": {
+      "audio_count": 4,
+      "audio_duration_seconds": 0.832789,
+      "bytes": 55232,
+      "count": 4
+    },
+    "gabbaloud": {
+      "audio_count": 4,
+      "audio_duration_seconds": 0.832789,
+      "bytes": 54588,
+      "count": 4
+    },
+    "gabbalouder": {
+      "audio_count": 4,
+      "audio_duration_seconds": 0.832789,
+      "bytes": 54588,
+      "count": 4
+    },
+    "glasstap": {
+      "audio_count": 3,
+      "audio_duration_seconds": 0.766009,
+      "bytes": 67694,
+      "count": 3
+    },
+    "glitch": {
+      "audio_count": 8,
+      "audio_duration_seconds": 1.651519,
+      "bytes": 146016,
+      "count": 8
+    },
+    "glitch2": {
+      "audio_count": 8,
+      "audio_duration_seconds": 1.651519,
+      "bytes": 146016,
+      "count": 8
+    },
+    "gretsch": {
+      "audio_count": 24,
+      "audio_duration_seconds": 55.090589,
+      "bytes": 9722532,
+      "count": 24
+    },
+    "gtr": {
+      "audio_count": 3,
+      "audio_duration_seconds": 12.0,
+      "bytes": 2594530,
+      "count": 3
+    },
+    "h": {
+      "audio_count": 7,
+      "audio_duration_seconds": 2.754853,
+      "bytes": 243286,
+      "count": 7
+    },
+    "hand": {
+      "audio_count": 17,
+      "audio_duration_seconds": 17.351337,
+      "bytes": 1531136,
+      "count": 17
+    },
+    "hardcore": {
+      "audio_count": 12,
+      "audio_duration_seconds": 5.686622,
+      "bytes": 1004656,
+      "count": 12
+    },
+    "hardkick": {
+      "audio_count": 6,
+      "audio_duration_seconds": 2.378594,
+      "bytes": 210416,
+      "count": 6
+    },
+    "haw": {
+      "audio_count": 6,
+      "audio_duration_seconds": 1.999998,
+      "bytes": 353676,
+      "count": 6
+    },
+    "hc": {
+      "audio_count": 6,
+      "audio_duration_seconds": 0.65551,
+      "bytes": 58080,
+      "count": 6
+    },
+    "hh": {
+      "audio_count": 13,
+      "audio_duration_seconds": 18.910952,
+      "bytes": 3337556,
+      "count": 13
+    },
+    "hh27": {
+      "audio_count": 13,
+      "audio_duration_seconds": 15.255647,
+      "bytes": 2692760,
+      "count": 13
+    },
+    "hit": {
+      "audio_count": 6,
+      "audio_duration_seconds": 5.001406,
+      "bytes": 441400,
+      "count": 6
+    },
+    "hmm": {
+      "audio_count": 1,
+      "audio_duration_seconds": 0.711179,
+      "bytes": 62770,
+      "count": 1
+    },
+    "ho": {
+      "audio_count": 6,
+      "audio_duration_seconds": 2.455126,
+      "bytes": 216806,
+      "count": 6
+    },
+    "hoover": {
+      "audio_count": 6,
+      "audio_duration_seconds": 2.400726,
+      "bytes": 423752,
+      "count": 6
+    },
+    "house": {
+      "audio_count": 8,
+      "audio_duration_seconds": 4.812926,
+      "bytes": 424852,
+      "count": 8
+    },
+    "ht": {
+      "audio_count": 16,
+      "audio_duration_seconds": 5.451101,
+      "bytes": 481502,
+      "count": 16
+    },
+    "if": {
+      "audio_count": 5,
+      "audio_duration_seconds": 2.318209,
+      "bytes": 409662,
+      "count": 5
+    },
+    "ifdrums": {
+      "audio_count": 3,
+      "audio_duration_seconds": 0.954535,
+      "bytes": 168818,
+      "count": 3
+    },
+    "incoming": {
+      "audio_count": 8,
+      "audio_duration_seconds": 3.311269,
+      "bytes": 293206,
+      "count": 8
+    },
+    "industrial": {
+      "audio_count": 32,
+      "audio_duration_seconds": 7.290317,
+      "bytes": 585782,
+      "count": 32
+    },
+    "insect": {
+      "audio_count": 3,
+      "audio_duration_seconds": 0.830499,
+      "bytes": 73388,
+      "count": 3
+    },
+    "invaders": {
+      "audio_count": 18,
+      "audio_duration_seconds": 7.604015,
+      "bytes": 671466,
+      "count": 18
+    },
+    "jazz": {
+      "audio_count": 8,
+      "audio_duration_seconds": 4.812926,
+      "bytes": 424852,
+      "count": 8
+    },
+    "jungbass": {
+      "audio_count": 20,
+      "audio_duration_seconds": 36.877211,
+      "bytes": 2935156,
+      "count": 20
+    },
+    "jungle": {
+      "audio_count": 13,
+      "audio_duration_seconds": 10.951226,
+      "bytes": 966470,
+      "count": 13
+    },
+    "juno": {
+      "audio_count": 12,
+      "audio_duration_seconds": 17.300341,
+      "bytes": 2473375,
+      "count": 12
+    },
+    "jvbass": {
+      "audio_count": 13,
+      "audio_duration_seconds": 3.711927,
+      "bytes": 327964,
+      "count": 13
+    },
+    "kicklinn": {
+      "audio_count": 1,
+      "audio_duration_seconds": 0.200658,
+      "bytes": 17742,
+      "count": 1
+    },
+    "koy": {
+      "audio_count": 2,
+      "audio_duration_seconds": 7.848752,
+      "bytes": 692348,
+      "count": 2
+    },
+    "kurt": {
+      "audio_count": 7,
+      "audio_duration_seconds": 6.344672,
+      "bytes": 559908,
+      "count": 7
+    },
+    "latibro": {
+      "audio_count": 8,
+      "audio_duration_seconds": 3.37372,
+      "bytes": 298354,
+      "count": 8
+    },
+    "led": {
+      "audio_count": 1,
+      "audio_duration_seconds": 8.174104,
+      "bytes": 721000,
+      "count": 1
+    },
+    "less": {
+      "audio_count": 4,
+      "audio_duration_seconds": 3.157868,
+      "bytes": 278916,
+      "count": 4
+    },
+    "lighter": {
+      "audio_count": 33,
+      "audio_duration_seconds": 3.585987,
+      "bytes": 317736,
+      "count": 33
+    },
+    "linnhats": {
+      "audio_count": 6,
+      "audio_duration_seconds": 0.976529,
+      "bytes": 172524,
+      "count": 6
+    },
+    "lt": {
+      "audio_count": 16,
+      "audio_duration_seconds": 8.589443,
+      "bytes": 758310,
+      "count": 16
+    },
+    "made": {
+      "audio_count": 7,
+      "audio_duration_seconds": 2.630138,
+      "bytes": 232286,
+      "count": 7
+    },
+    "made2": {
+      "audio_count": 1,
+      "audio_duration_seconds": 4.000023,
+      "bytes": 352846,
+      "count": 1
+    },
+    "mash": {
+      "audio_count": 2,
+      "audio_duration_seconds": 1.000046,
+      "bytes": 88292,
+      "count": 2
+    },
+    "mash2": {
+      "audio_count": 4,
+      "audio_duration_seconds": 4.600092,
+      "bytes": 405904,
+      "count": 4
+    },
+    "metal": {
+      "audio_count": 10,
+      "audio_duration_seconds": 3.978616,
+      "bytes": 353234,
+      "count": 10
+    },
+    "miniyeah": {
+      "audio_count": 4,
+      "audio_duration_seconds": 0.057187,
+      "bytes": 5972,
+      "count": 4
+    },
+    "monsterb": {
+      "audio_count": 6,
+      "audio_duration_seconds": 4.756281,
+      "bytes": 105140,
+      "count": 6
+    },
+    "moog": {
+      "audio_count": 7,
+      "audio_duration_seconds": 37.359569,
+      "bytes": 3296122,
+      "count": 7
+    },
+    "mouth": {
+      "audio_count": 15,
+      "audio_duration_seconds": 0.543673,
+      "bytes": 49932,
+      "count": 15
+    },
+    "mp3": {
+      "audio_count": 4,
+      "audio_duration_seconds": 1.288908,
+      "bytes": 113896,
+      "count": 4
+    },
+    "msg": {
+      "audio_count": 9,
+      "audio_duration_seconds": 0.21091,
+      "bytes": 19622,
+      "count": 9
+    },
+    "mt": {
+      "audio_count": 16,
+      "audio_duration_seconds": 5.494456,
+      "bytes": 485326,
+      "count": 16
+    },
+    "mute": {
+      "audio_count": 28,
+      "audio_duration_seconds": 9.693559,
+      "bytes": 1711288,
+      "count": 28
+    },
+    "newnotes": {
+      "audio_count": 15,
+      "audio_duration_seconds": 2.082382,
+      "bytes": 184326,
+      "count": 15
+    },
+    "noise": {
+      "audio_count": 1,
+      "audio_duration_seconds": 0.026145,
+      "bytes": 2350,
+      "count": 1
+    },
+    "noise2": {
+      "audio_count": 8,
+      "audio_duration_seconds": 0.599977,
+      "bytes": 53270,
+      "count": 8
+    },
+    "notes": {
+      "audio_count": 15,
+      "audio_duration_seconds": 2.082995,
+      "bytes": 196196,
+      "count": 15
+    },
+    "num": {
+      "audio_count": 21,
+      "audio_duration_seconds": 14.371292,
+      "bytes": 2552821,
+      "count": 22
+    },
+    "numbers": {
+      "audio_count": 9,
+      "audio_duration_seconds": 19.501836,
+      "bytes": 1720854,
+      "count": 9
+    },
+    "oc": {
+      "audio_count": 4,
+      "audio_duration_seconds": 1.503458,
+      "bytes": 132784,
+      "count": 4
+    },
+    "odx": {
+      "audio_count": 15,
+      "audio_duration_seconds": 7.144356,
+      "bytes": 630792,
+      "count": 15
+    },
+    "off": {
+      "audio_count": 1,
+      "audio_duration_seconds": 0.224943,
+      "bytes": 19884,
+      "count": 1
+    },
+    "outdoor": {
+      "audio_count": 6,
+      "audio_duration_seconds": 5.844467,
+      "bytes": 1031228,
+      "count": 6
+    },
+    "pad": {
+      "audio_count": 3,
+      "audio_duration_seconds": 20.199705,
+      "bytes": 4621764,
+      "count": 3
+    },
+    "padlong": {
+      "audio_count": 1,
+      "audio_duration_seconds": 25.917868,
+      "bytes": 4571958,
+      "count": 1
+    },
+    "pebbles": {
+      "audio_count": 1,
+      "audio_duration_seconds": 22.401542,
+      "bytes": 6452812,
+      "count": 1
+    },
+    "perc": {
+      "audio_count": 6,
+      "audio_duration_seconds": 1.514399,
+      "bytes": 133834,
+      "count": 6
+    },
+    "peri": {
+      "audio_count": 15,
+      "audio_duration_seconds": 6.428565,
+      "bytes": 1137750,
+      "count": 15
+    },
+    "pluck": {
+      "audio_count": 17,
+      "audio_duration_seconds": 26.966531,
+      "bytes": 4757712,
+      "count": 17
+    },
+    "popkick": {
+      "audio_count": 10,
+      "audio_duration_seconds": 3.380591,
+      "bytes": 596776,
+      "count": 10
+    },
+    "print": {
+      "audio_count": 11,
+      "audio_duration_seconds": 6.673446,
+      "bytes": 1177680,
+      "count": 11
+    },
+    "proc": {
+      "audio_count": 2,
+      "audio_duration_seconds": 1.580793,
+      "bytes": 139514,
+      "count": 2
+    },
+    "procshort": {
+      "audio_count": 8,
+      "audio_duration_seconds": 1.102972,
+      "bytes": 97634,
+      "count": 8
+    },
+    "psr": {
+      "audio_count": 30,
+      "audio_duration_seconds": 15.106575,
+      "bytes": 1333720,
+      "count": 30
+    },
+    "rave": {
+      "audio_count": 8,
+      "audio_duration_seconds": 12.00839,
+      "bytes": 2118632,
+      "count": 8
+    },
+    "rave2": {
+      "audio_count": 6,
+      "audio_duration_seconds": 1.446938,
+      "bytes": 172602,
+      "count": 6
+    },
+    "ravemono": {
+      "audio_count": 2,
+      "audio_duration_seconds": 4.582676,
+      "bytes": 404280,
+      "count": 2
+    },
+    "realclaps": {
+      "audio_count": 4,
+      "audio_duration_seconds": 1.396439,
+      "bytes": 246508,
+      "count": 4
+    },
+    "reverbkick": {
+      "audio_count": 1,
+      "audio_duration_seconds": 1.25,
+      "bytes": 220544,
+      "count": 1
+    },
+    "rm": {
+      "audio_count": 2,
+      "audio_duration_seconds": 0.079727,
+      "bytes": 7120,
+      "count": 2
+    },
+    "rs": {
+      "audio_count": 1,
+      "audio_duration_seconds": 0.050408,
+      "bytes": 18014,
+      "count": 1
+    },
+    "sax": {
+      "audio_count": 22,
+      "audio_duration_seconds": 94.1393,
+      "bytes": 8306342,
+      "count": 22
+    },
+    "sd": {
+      "audio_count": 2,
+      "audio_duration_seconds": 0.493061,
+      "bytes": 174412,
+      "count": 2
+    },
+    "seawolf": {
+      "audio_count": 3,
+      "audio_duration_seconds": 14.442811,
+      "bytes": 1274210,
+      "count": 3
+    },
+    "sequential": {
+      "audio_count": 8,
+      "audio_duration_seconds": 2.647438,
+      "bytes": 234656,
+      "count": 8
+    },
+    "sf": {
+      "audio_count": 18,
+      "audio_duration_seconds": 4.988662,
+      "bytes": 440792,
+      "count": 18
+    },
+    "sheffield": {
+      "audio_count": 1,
+      "audio_duration_seconds": 19.136281,
+      "bytes": 3375684,
+      "count": 1
+    },
+    "short": {
+      "audio_count": 5,
+      "audio_duration_seconds": 0.721837,
+      "bytes": 127642,
+      "count": 5
+    },
+    "sid": {
+      "audio_count": 12,
+      "audio_duration_seconds": 2.694605,
+      "bytes": 238192,
+      "count": 12
+    },
+    "simplesine": {
+      "audio_count": 6,
+      "audio_duration_seconds": 0.659887,
+      "bytes": 84926,
+      "count": 6
+    },
+    "sitar": {
+      "audio_count": 8,
+      "audio_duration_seconds": 53.964625,
+      "bytes": 4760864,
+      "count": 8
+    },
+    "sn": {
+      "audio_count": 52,
+      "audio_duration_seconds": 11.154656,
+      "bytes": 986150,
+      "count": 52
+    },
+    "space": {
+      "audio_count": 18,
+      "audio_duration_seconds": 7.604015,
+      "bytes": 671466,
+      "count": 18
+    },
+    "speakspell": {
+      "audio_count": 12,
+      "audio_duration_seconds": 1.940952,
+      "bytes": 342912,
+      "count": 12
+    },
+    "speech": {
+      "audio_count": 7,
+      "audio_duration_seconds": 1.558071,
+      "bytes": 158124,
+      "count": 7
+    },
+    "speechless": {
+      "audio_count": 10,
+      "audio_duration_seconds": 8.822001,
+      "bytes": 282744,
+      "count": 10
+    },
+    "speedupdown": {
+      "audio_count": 9,
+      "audio_duration_seconds": 1.212202,
+      "bytes": 108104,
+      "count": 9
+    },
+    "stab": {
+      "audio_count": 23,
+      "audio_duration_seconds": 15.514172,
+      "bytes": 1394282,
+      "count": 23
+    },
+    "stomp": {
+      "audio_count": 10,
+      "audio_duration_seconds": 1.720045,
+      "bytes": 80714,
+      "count": 10
+    },
+    "strudel.json": {
+      "audio_count": 0,
+      "audio_duration_seconds": 0.0,
+      "bytes": 47637,
+      "count": 1
+    },
+    "subroc3d": {
+      "audio_count": 11,
+      "audio_duration_seconds": 16.608594,
+      "bytes": 1465436,
+      "count": 11
+    },
+    "sugar": {
+      "audio_count": 2,
+      "audio_duration_seconds": 19.698775,
+      "bytes": 634102,
+      "count": 2
+    },
+    "sundance": {
+      "audio_count": 6,
+      "audio_duration_seconds": 7.118843,
+      "bytes": 628590,
+      "count": 6
+    },
+    "tabla": {
+      "audio_count": 26,
+      "audio_duration_seconds": 39.006896,
+      "bytes": 6881960,
+      "count": 26
+    },
+    "tabla2": {
+      "audio_count": 46,
+      "audio_duration_seconds": 78.02163,
+      "bytes": 6900108,
+      "count": 48
+    },
+    "tablex": {
+      "audio_count": 3,
+      "audio_duration_seconds": 6.119126,
+      "bytes": 195944,
+      "count": 3
+    },
+    "tacscan": {
+      "audio_count": 22,
+      "audio_duration_seconds": 41.220227,
+      "bytes": 3636592,
+      "count": 22
+    },
+    "tech": {
+      "audio_count": 13,
+      "audio_duration_seconds": 6.344239,
+      "bytes": 1120788,
+      "count": 13
+    },
+    "techno": {
+      "audio_count": 7,
+      "audio_duration_seconds": 2.509637,
+      "bytes": 207996,
+      "count": 7
+    },
+    "tink": {
+      "audio_count": 5,
+      "audio_duration_seconds": 5.594083,
+      "bytes": 494058,
+      "count": 5
+    },
+    "tok": {
+      "audio_count": 4,
+      "audio_duration_seconds": 1.135148,
+      "bytes": 100296,
+      "count": 4
+    },
+    "toys": {
+      "audio_count": 13,
+      "audio_duration_seconds": 21.080296,
+      "bytes": 3720438,
+      "count": 13
+    },
+    "trump": {
+      "audio_count": 11,
+      "audio_duration_seconds": 7.734851,
+      "bytes": 769964,
+      "count": 11
+    },
+    "ul": {
+      "audio_count": 10,
+      "audio_duration_seconds": 6.492222,
+      "bytes": 573594,
+      "count": 10
+    },
+    "ulgab": {
+      "audio_count": 5,
+      "audio_duration_seconds": 2.7,
+      "bytes": 238630,
+      "count": 5
+    },
+    "uxay": {
+      "audio_count": 3,
+      "audio_duration_seconds": 1.084354,
+      "bytes": 191412,
+      "count": 3
+    },
+    "v": {
+      "audio_count": 6,
+      "audio_duration_seconds": 1.584828,
+      "bytes": 184680,
+      "count": 6
+    },
+    "voodoo": {
+      "audio_count": 5,
+      "audio_duration_seconds": 0.55288,
+      "bytes": 52664,
+      "count": 6
+    },
+    "wind": {
+      "audio_count": 10,
+      "audio_duration_seconds": 10.696055,
+      "bytes": 944712,
+      "count": 10
+    },
+    "wobble": {
+      "audio_count": 1,
+      "audio_duration_seconds": 0.375057,
+      "bytes": 33312,
+      "count": 1
+    },
+    "world": {
+      "audio_count": 3,
+      "audio_duration_seconds": 0.686158,
+      "bytes": 49628,
+      "count": 3
+    },
+    "xmas": {
+      "audio_count": 1,
+      "audio_duration_seconds": 1.542426,
+      "bytes": 272128,
+      "count": 1
+    },
+    "yeah": {
+      "audio_count": 31,
+      "audio_duration_seconds": 0.4522,
+      "bytes": 46976,
+      "count": 31
+    }
+  },
+  "extensions": {
+    ".ews": {
+      "bytes": 6272,
+      "count": 1
+    },
+    ".json": {
+      "bytes": 47637,
+      "count": 1
+    },
+    ".md": {
+      "bytes": 606,
+      "count": 1
+    },
+    ".ogg": {
+      "bytes": 14082,
+      "count": 2
+    },
+    ".quark": {
+      "bytes": 74,
+      "count": 1
+    },
+    ".txt": {
+      "bytes": 39668,
+      "count": 8
+    },
+    ".wav": {
+      "bytes": 233409731,
+      "count": 2038
+    }
+  },
+  "file_count": 2052,
+  "generated_at_utc": "2026-07-13T04:32:01Z",
+  "largest_file": {
+    "path": "pebbles/90788__kmoon__pebbles-scrape-drag-foot.wav",
+    "size_bytes": 6452812
+  },
+  "longest_audio_file": {
+    "duration_seconds": 25.917868,
+    "path": "padlong/atmospheric-abduction.wav",
+    "size_bytes": 4571958
+  },
+  "probe_error_count": 0,
+  "probe_errors": [],
+  "raw_base_url": "https://raw.githubusercontent.com/ZBZFirst/file/master/samples/",
+  "repository": "https://github.com/ZBZFirst/file",
+  "sample_rates_hz": {
+    "11025": 1,
+    "16000": 14,
+    "22050": 127,
+    "22254": 2,
+    "32000": 1,
+    "44000": 16,
+    "44100": 1752,
+    "44101": 112,
+    "48000": 15
+  },
+  "samples_tree_url": "https://github.com/ZBZFirst/file/tree/master/samples",
+  "schema_version": 1,
+  "source_note": "Generated from samples/ in ZBZFirst/file.",
+  "total_audio_duration_minutes": 32.959,
+  "total_audio_duration_seconds": 1977.563852,
+  "total_size_bytes": 233518070,
+  "total_size_mib": 222.7
+}
