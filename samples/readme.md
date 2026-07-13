@@ -1,1 +1,0 @@
-This is just a re uploading of the super dirt samples that ships with the Super Collider IDE Engine. The "https://supercollider.github.io/" is GNU License. This project folder is GNU License under /file/samples/xxx   .
